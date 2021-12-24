@@ -1,0 +1,57 @@
+const Spinners = require('spinnies');
+
+const point = { 
+  interval: 70,
+  frames: ["∙∙∙",
+			"●∙∙",
+			"∙●∙",
+			"∙∙●",
+			"∙∙∙"]
+}
+const spinners = new Spinners({
+  spinner: point,
+  color: 'blue',
+  succeedColor: 'green',
+  failColor: 'red',
+  spinnerColor: 'white'
+});
+
+
+function spinOn () {
+
+setTimeout(() => {
+  spinners.add('1', { text: 'Acor' });
+}, 0)
+setTimeout(() => {
+  spinners.add('1', { text: 'Acorda' });
+}, 200)
+setTimeout(() => {
+  spinners.add('1', { text: 'Acordand' });
+}, 400)
+setTimeout(() => {
+  spinners.add('1', { text: '▀▀▀█ █▀▀ █▀▀█ █▀▀█\n ▄▄▄▀▀ █▀▀ █▄▄▀ █░░█\n █▄▄▄█ ▀▀▀ ▀░▀▀ ▀▀▀▀' });
+}, 600)
+setTimeout(() => {
+  spinners.add('1', { text: '▀▀▀█ █▀▀ █▀▀█ █▀▀█\n ▄▄▄▀▀ █▀▀ █▄▄▀ █░░█\n █▄▄▄█ ▀▀▀ ▀░▀▀ ▀▀▀▀' });
+}, 700)
+setTimeout(() => {
+  spinners.add('1', { text: '▀▀▀█ █▀▀ █▀▀█ █▀▀█\n ▄▄▄▀▀ █▀▀ █▄▄▀ █░░█\n █▄▄▄█ ▀▀▀ ▀░▀▀ ▀▀▀▀' });
+}, 800)
+setTimeout(() => {
+  spinners.add('1', { text: '▀▀▀█ █▀▀ █▀▀█ █▀▀█\n ▄▄▄▀▀ █▀▀ █▄▄▀ █░░█\n █▄▄▄█ ▀▀▀ ▀░▀▀ ▀▀▀▀' });
+}, 900)
+setTimeout(() => {
+  spinners.add('1', { text: '▀▀▀█ █▀▀ █▀▀█\n ▄▄▄▀▀ █▀▀ █▄▄▀\n █▄▄▄█ ▀▀▀ ▀░▀▀' });
+}, 1000)
+setTimeout(() => {
+  spinners.add('1', { text: '▀▀▀█ █▀▀ █▀▀\n ▄▄▄▀▀ █▀▀ █▄▄\n █▄▄▄█ ▀▀▀ ▀░▀' });
+}, 1200)
+setTimeout(() => {
+  spinners.add('1', { text: '▀▀▀█ █▀▀ █▀\n ▄▄▄▀▀ █▀▀ █▄\n █▄▄▄█ ▀▀▀ ▀░'});
+}, 1300)
+setTimeout(() => {
+  spinners.succeed('1', { text: ' █▀▀▀█ █▀▀ █▀▀█ █▀▀█\n ▄▄▄▀▀ █▀▀ █▄▄▀ █░░█\n █▄▄▄█ ▀▀▀ ▀░▀▀ ▀▀▀▀' });
+}, 1400)
+}
+
+module.exports = { spinOn };

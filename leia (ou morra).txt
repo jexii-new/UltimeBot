@@ -1,0 +1,30 @@
+
+
+ZERO BOT EDITABLE.
+by Grabiel y Kriz.
+
+Instalacion:
+
+cd
+
+termux-setup-storage
+
+ls 
+
+cd /sdcard/la carpeta de tu bot
+
+bash install.sh
+
+siempre use Y.
+
+Escanea el QR y ya.
+
+
+Gabriel: 554991579631
+Kriz: 994408103470
+grupo de gabriel : https://chat.whatsapp.com/JiXC3HsAgZs2Ry8mcq75iG
+
+grupo de Kriz: https://chat.whatsapp.com/G6Luvtt0lQu8ZLxvAnvmtw
+
+No olvides de suscribirte al canal de gabriel y Kriz✅.
+

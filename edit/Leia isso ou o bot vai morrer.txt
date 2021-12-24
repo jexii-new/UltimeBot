@@ -1,0 +1,13 @@
+
+
+
+por padrão,o nome do dono é Gabriel.
+
+o bot pode te chamar de diversos nomes diferentes, para ver a lista de nomes digite .nomes
+
+você PRECISA escolher um desses nomes e inserir no arquivo settings.json.
+
+É SÉRIO,O BOT VAI FICAR CAINDO SE VOCÊ NÃO COLOCAR O NOME CERTO.
+
+
+cara de cu.
